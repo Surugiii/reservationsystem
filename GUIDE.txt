@@ -1,3 +1,15 @@
+MEMBERS;
+  Bacani,Princes Mahallalel Lobo
+  Norte, Sakura Ann
+  Delos Angeles, Arjay
+  Mejila, Steven Carl
+
+Guide
 -Use live server extension to load the database
 
+
 -When running the vs code use the public folder
+
+
+Link
+https://surugiii.github.io/reservationsystem/
