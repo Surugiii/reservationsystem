@@ -1,0 +1,3 @@
+-Use live server extension to load the database
+
+-When running the vs code use the public folder
