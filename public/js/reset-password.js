@@ -31,7 +31,7 @@ form.addEventListener('submit', async (e) => {
 
   try {
     const { error } = await supabase.auth.resetPasswordForEmail(email, {
-      redirectTo: `${window.location.origin}/change-password.html`,
+      redirectTo: `https://surugiii.github.io/dance-studio/change-password.html`,
       captchaToken: null
     });
 
@@ -89,4 +89,5 @@ function showStatus(message, type) {
       document.body.classList.toggle('dark-mode');
       localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
       updateToggleState();
+
     });
