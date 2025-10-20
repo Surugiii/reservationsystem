@@ -31,7 +31,7 @@ form.addEventListener('submit', async (e) => {
 
   try {
     const { error } = await supabase.auth.resetPasswordForEmail(email, {
-      redirectTo: https://surugiii.github.io/reservationsystem/change-password.html,
+      redirectTo: https://surugiii.github.io/reservationsystem/public/change-password.html,
       captchaToken: null
     });
 
@@ -91,3 +91,4 @@ function showStatus(message, type) {
       updateToggleState();
 
     });
+
